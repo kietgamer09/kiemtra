@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cover Design</title>
+  </head>
+  <body>
+    <section class="cover-design">
+      <header class="header">
+        <button class="back-button">
+          <span class="back-arrow">←</span> Account verification
+        </button>
+        <span class="status-badge">In progress</span>
+      </header>
+
+      <main class="form-container">
+        <div class="progress-bar">
+          <div class="step active">1</div>
+          <div class="step">2</div>
+          <div class="step">3</div>
+          <div class="step">4</div>
+        </div>
+
+        <h1 class="form-title">Business structure</h1>
+        <p class="form-description">
+          DigiRoad collects this information to better understand and serve your
+          business.
+        </p>
+
+        <form class="business-form">
+          <div class="form-group">
+            <label for="email">Business Email</label>
+            <input type="email" id="email" placeholder="Email" />
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Address line" />
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="City" />
+            <label for="zip">Zip</label>
+            <input type="text" id="zip" placeholder="Zip" />
+          </div>
+
+          <button type="submit" class="submit-button">Continue →</button>
+        </form>
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
